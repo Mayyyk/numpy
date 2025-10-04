@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data (jeśli masz duże datasety)
+data/
+*.csv
+*.xlsx
+*.h5
+*.hdf5
+
+# Model weights (jak będziesz trenował ML modele)
+*.pth
+*.h5
+*.pkl
+*.joblib
+
+# Outputs
+outputs/
+results/
+figures/
+plots/
+
+# Environment variables
+.env
+.env.local
