@@ -1,8 +1,0 @@
-#!/home/majk/Documents/Python_data_science/data_science_libraries/env_with_data_science_libs/bin/python3
-# -*- coding: utf-8 -*-
-import re
-import sys
-from blackd import patched_main
-if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
-    sys.exit(patched_main())
