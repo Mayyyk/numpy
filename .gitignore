@@ -7,6 +7,7 @@ __pycache__/
 
 # Virtual Environment
 venv/
+env_with_data_science_libs/
 env/
 ENV/
 .venv
@@ -49,3 +50,5 @@ plots/
 # Environment variables
 .env
 .env.local
+
+motionsense_data/
